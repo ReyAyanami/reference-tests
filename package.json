@@ -14,7 +14,7 @@
     "mocha-istanbul": "^0.3.0"
   },
   "scripts": {
-    "compile": "./node_modules/.bin/babel --presets es2015 -d tmp/ distr/",
+    "compile": "./node_modules/.bin/babel --presets es2015 -d tmp/ src/",
     "pretest": "npm run compile",
     "test": "./node_modules/.bin/mocha tmp/test/test.js",
     "precoverage": "npm run compile",
